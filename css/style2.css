@@ -1,0 +1,154 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* รวมพื้นหลัง Gradient และลวดลาย */
+    background-image: 
+    
+        linear-gradient(135deg, #FFDFD3,#FAF3E0,#FFADAD);
+        
+
+   
+}
+    
+
+    
+
+
+/* Navbar */
+.navbar {
+    background-color: #ecb9cb;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.nav-link {
+    color: #C05A7D;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #C05A7Df3; 
+}
+
+nav {
+    background-color: #FFDFD3;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #333;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FFADAD;
+    border-bottom: 2px solid #FFADAD;
+}
+
+/* Button search color */
+button.btn-dark {
+    background-color: #C05A7D;
+    border-color: #C05A7D;
+}
+
+button.btn-dark:hover {
+    background-color: #e642c8;
+}
+
+
+.cta-button {
+    background-color: #FFADAD;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #FF7070;
+}
+
+/* หัวข้อใหญ่ */
+
+
+h2 {
+    background: linear-gradient(90deg, #FFDFD3, #FFADAD);
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    color: #993939;
+    margin: 0;
+}
+
+h2 img {
+    max-height: 80px;
+    margin-bottom: 10px;
+}
+
+
+/* โควท */
+blockquote {
+    background-color:  #FFDFD3;
+    text-align: center;
+    padding: 20px;
+}
+
+blockquote {
+    font-family: 'Arial', sans-serif;
+    color: #993939;
+    margin: 0;
+}
+
+
+/* เนื้อหา */
+dt {
+    font-family: 'Poppins', sans-serif;
+    color: #993939;
+    margin: 0;
+}
+
+dd {
+    font-family: 'Poppins', sans-serif;
+    color: #4b1919;
+    margin: 0;
+}
+
+
+
+
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+    
+}
+/* Text-center */
+.text-center {
+    text-align: center;
+}
+
+/* กำหนดให้ภาพเต็มความกว้างของจอ */
+.container img {
+    width: 100%;
+ 
+}
+
+
+
+
+
+
+
+
+
