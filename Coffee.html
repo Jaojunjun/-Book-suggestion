@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <meta name="keywords" content="Before the Coffee Gets Cold, Cofffe, Novels, Fiction, Time machine,Toshikazu Kawaguchi">
     <meta name="Description" content="หนังสือแนวแฟนตาซีที่จะพาทุกท่านเดินทางย้อนเวลากลับไปในอดีต แต่ต้องปฏิบัติตามกฎที่ให้ไว้โดยต้องกลับมาในปัจจุบันให้ทันก่อนที่กาแฟจะเย็น">
-
+    
   </head>
   <body>
     
@@ -39,9 +39,6 @@
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="Review.html">review</a>
-                      </li>
-                      <li class="nav-item">
                         <a class="nav-link" href="about.html">about us</a>
                       </li>  
                     </ul>
@@ -63,7 +60,7 @@
     <div class="container">
         
           <div class="col-md-12 text-center">
-            <img src="images/Tim.PNG" height="370" width="1100">
+            <img src="images/Time1.png" class="img-fluid" >
           </div>
 
 
@@ -71,16 +68,40 @@
         <br>
         
         <div class="row">
-          <div class="col-md-3 text-center"><img src="images/Before.jpg" class="img-fluid">
-            
+          <div class="col-md-3 text-center">
+            <img src="images/Before.jpg" class="img-fluid">
             <br>
             <br>
 
-          
+            <!-- Button to Open Modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="buybutton">
+              Buy
+            </button>
+
+            <!-- Modal Structure -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Are you sure?</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          Before The Coffee Gets Cold ราคา 450 บาท
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancle</button>
+                          <button type="button" class="btn btn-primary" id="buybutton">Summit</button>
+                      </div>
+                  </div>
+              </div>
+            </div>
           </div>
+
+      
              
 
-          <div class="col-md-9 p-4 text-center"><h2>Before The Coffee Gets Cold</h2>
+          <div class="col-md-9 p-4 text-center" id="heading"><h2>Before The Coffee Gets Cold</h2>
             <br>
                   
             <figure>
@@ -92,7 +113,7 @@
                 Toshikazu Kawaguchi <cite title="Source Title">Before the Coffee Gets Cold</cite>
               </figcaption>
             </figure>
-
+ 
 
             <br>
 
@@ -100,13 +121,10 @@
               <dt class="col-sm-3">Description lists</dt>
               <dd class="col-sm-9">หนังสือเล่มนี้มีเนื้อเรื่องเกี่ยวกับคาเฟ่ลับแห่งนึงที่มีข่าวลือว่าร้านนั้นมีกาแฟที่ดื่มแล้วสามารถพาย้อนกลับไปในอดีตได้ แต่ทว่าความปรารถนานั้นย่อมมาพร้อมกับความท้าทายที่รอคอยอยู่ นั่นก็คือกฎที่ล้วนเป็นบททดสอบสำหรับผู้ที่ปรารถนาจะย้อนกลับไปในอดีต ซึ่งเนื้อเรื่องจะนำพาเราไปเรียนรู้เรื่องราวที่แตกต่างกันของตัวละครทั้ง4คนที่พยายามจะย้อนกลับไปแก้ไขหรือพบเจอกับผู้คนอันเป็นที่รักในอดีต โดยต้องยึดกฎที่ว่าต้องกลับมาให้ทันก่อนที่กาแฟจะหายร้อน  แต่ทว่าหากมีคนใดคนนึงไม่ทำตามกฎล่ะ จะเกิดอะไรขึ้น?</dd>
           
-                <br>
+                
               <dt class="col-sm-3">Type of book</dt>
-              <dd class="col-sm-9">
-                <p>นวนิยายภาษาญี่ปุ่น</p>
-               
-              </dd>
-            
+              <dd class="col-sm-9"><p>นวนิยายภาษาญี่ปุ่น</p></dd>
+
               <dt class="col-sm-3">Author</dt>
               <dd class="col-sm-9">Toshikazu Kawaguchi </dd>
             
@@ -121,7 +139,7 @@
   </div>
 
 
-
+ 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

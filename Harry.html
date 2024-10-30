@@ -40,9 +40,6 @@
                           </ul>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="Review.html">review</a>
-                        </li>
-                        <li class="nav-item">
                           <a class="nav-link" href="about.html">about us</a>
                         </li>  
                       </ul>
@@ -62,7 +59,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <img src="images/Fan.PNG"  height="370" width="1100">
+            <img src="images/Fantasy1.png" class="img-fluid">
           </div>
         </div>
 
@@ -74,12 +71,33 @@
             
             <br>
             <br>
+          <!-- Button to Open Modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="buybutton">
+            Buy
+          </button>
 
-          
+          <!-- Modal Structure -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Are you sure?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Harry Potter and the Goblet of Fire ราคา 660 บาท
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancle</button>
+                        <button type="button" class="btn btn-primary" id="buybutton">Summit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
              
 
-          <div class="col-md-9 p-4 text-center"><h2>Harry Potter and the Goblet of Fire</h2>
+          <div class="col-md-9 p-4 text-center" id="heading"><h2>Harry Potter and the Goblet of Fire</h2>
             <br>
             <br>
 

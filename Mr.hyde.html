@@ -38,9 +38,6 @@
                         <li><a class="dropdown-item" href="Coffee.html">time machine</a></li>
                       </ul>
                     </li>
-                    <li class="nav-item"></li>
-                      <a class="nav-link" href="Review.html">review</a>
-                    </li>
                     <li class="nav-item">
                       <a class="nav-link" href="about.html">about us</a>
                     </li>  
@@ -65,7 +62,7 @@
        <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <img src="images/Sci.PNG" height="370" width="1100">
+            <img src="images/Sci1.png" class="img-fluid">
           </div>
         </div>
 
@@ -77,12 +74,33 @@
             
             <br>
             <br>
+          <!-- Button to Open Modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="buybutton">
+            Buy
+          </button>
 
-          
+          <!-- Modal Structure -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Are you sure?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Strange Case of Dr.jekyll and Mr.Hyde ราคา 129 บาท
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancle</button>
+                        <button type="button" class="btn btn-primary" id="buybutton">Summit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
              
 
-          <div class="col-md-9 p-4 text-center"><h2>Strange Case of Dr.jekyll and Mr.Hyde</h2>
+          <div class="col-md-9 p-4 text-center" id="heading"><h2>Strange Case of Dr.jekyll and Mr.Hyde</h2>
             <br>
 
             <figure>
@@ -106,13 +124,14 @@
 
                 <br>
                 โดยกาเบรียลได้สังเกตถึงความผิดปกติจากจดหมายและพินัยกรรมที่เขายกมรดกให้ 'มิตเตอร์ไฮด์' ผู้ซึ่งเป็นคนที่แปลกประหลาด ใช้ความรุนแรงและทุกคนต่างเกรงกลัว ซึ่งตรงกันข้ามกับเจคิลล์สุดๆ เขาคิดว่าเพื่อนของเขาไม่น่าจะมีส่วนเกี่ยวข้องกับคนนี้ๆได้ มิตเตอร์ไฮด์ข่มขู่อะไรหรือไม่? ทำไมจู่ๆเขาถึงไขคดีพบถึงความเชื่อมโยงของสองคนนี้ล่ะ? ทำไมสองคนนี้กลับมีบางสิ่งที่คล้ายกัน? เกิดอะไรขึ้นกับการหายตัวไปของเพื่อนเขากันแน่? 
-
+                
               </dd>
           
-                <br>
-
+                
               <dt class="col-sm-3">Type of book</dt>
               <dd class="col-sm-9">นวนิยายภาษาอังกฤษ</dd>
+
+             
               <dt class="col-sm-3">Author</dt>
               <dd class="col-sm-9">Robert Louis Stevenson</dd>
             

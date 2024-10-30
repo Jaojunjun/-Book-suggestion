@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    /* รวมพื้นหลัง Gradient และลวดลาย */
+    /* รวมพื้นหลัง Gradient  */
     background-image: 
     
         linear-gradient(135deg, #FFDFD3,#FAF3E0,#FFADAD);
@@ -167,4 +167,11 @@ blockquote {
     margin: 0;
 }
 
+
+#heading {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style:normal;
+}
 
